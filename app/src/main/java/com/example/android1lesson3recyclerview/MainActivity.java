@@ -12,15 +12,15 @@ import com.example.android1lesson3recyclerview.model.UserModel;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-private ActivityMainBinding binding;
+    private ActivityMainBinding binding;
     private ArrayList<UserModel> names = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         initialisation();
-        //setData();
 
     }
 

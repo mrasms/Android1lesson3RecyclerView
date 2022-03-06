@@ -1,6 +1,5 @@
 package com.example.android1lesson3recyclerview.model;
 
-import java.util.ArrayList;
 
 public class UserModel {
 
